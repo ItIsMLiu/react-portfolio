@@ -12,11 +12,11 @@ import './App.css'
 function App() {
   return (
     <>
-      <Contact />
       <Header />
       <Home />
       <Project />
       <ProjectGallery />
+      <Contact />
       <Footer />
     </>
   )
