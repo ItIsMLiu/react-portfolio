@@ -6,8 +6,8 @@ function Home() {
   return <>
     <div className="mb-4" id="home">
       <div className="container-fluid hero">
-        <h1 className="display-5 fw-bold">Minhui Liu</h1>
-        <p className="col-md-8 fs-4">Front End Developer</p>
+        <h1 className="col-12 fw-bold">Minhui Liu</h1>
+        <p className="col-12 fs-4">Front End Developer</p>
         <button className="btn btn-primary btn-lg" type="button"><a href="#git">Get in Touch!</a></button>
       </div>
     </div>

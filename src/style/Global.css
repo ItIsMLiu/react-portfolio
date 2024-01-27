@@ -62,49 +62,49 @@
   
   /*-------------------------------------*/
   /* media queries */
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 880px) {
     /* nav bar */
     .nav-link {
-        padding: 5px;
-        display: inline-block;
+      padding: 5px !important;
+      display: inline-block !important;
     }
   
     /* hero */
     .hero h1{
-        text-align: right !important;
-        margin-right: 30px !important;
-        position: relative !important;
-        bottom: 10px !important;
-        float: right !important;
+      text-align: right !important;
+      float: right !important;
+      margin-right: 30px !important;
+      position: relative !important;
+      top: 30px !important;
+      display: block !important;
     }
   
     .hero p {
-        text-align: right !important;
-        float: right !important;
-        margin-right: 30px !important;
-        margin-left: 0px !important;
-        position: relative !important;
-        bottom: -20px !important;
-        right: -200px !important;
+      text-align: right !important;
+      float: right !important;
+      margin-right: 30px !important;
+      position: relative !important;
+      top: 30px !important;
+      display: block !important;
     }
   
     .btn-primary {
-        display: none !important;
+      display: none !important;
     }
   }
   
   @media only screen and (max-width: 992px) {
     .secTitleContain {
-        text-align: center;
-        border-bottom: solid var(--colour1);
-        width: 90%;
+      text-align: center !important;
+      border-bottom: solid var(--colour1) !important;
+      width: 90% !important;
     }
   
     .section-block {
-        border-left: none;
+      border-left: none !important;
     }
   
     footer .btn {
-        display:inline-block;
+        display:inline-block !important;
     }
   }
