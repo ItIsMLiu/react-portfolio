@@ -1,0 +1,13 @@
+/* About/contact section */
+.nav-fill .nav-item {
+    text-align: left;
+    flex: none;
+}
+
+.nav-underline {
+    justify-content: space-between;
+}
+
+.nav-underline>.nav-item>a {
+    color: var(--colour1) !important;
+}

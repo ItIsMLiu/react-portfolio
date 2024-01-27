@@ -1,4 +1,6 @@
 import React from 'react';
+import "../style/ProjectGallery.css"
+import "../style/Global.css"
 
 function ProjectGallery() {
   return (

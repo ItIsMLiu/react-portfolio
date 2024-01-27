@@ -7,6 +7,7 @@ import ProjectGallery from "./components/ProjectGallery.jsx"
 import Footer from "./components/Footer.jsx"
 import { useState } from 'react'
 import './App.css'
+import "./style/Global.css"
 
 
 function App() {

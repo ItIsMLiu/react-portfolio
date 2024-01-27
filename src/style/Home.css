@@ -1,0 +1,101 @@
+/*-------------------------------------*/
+/* hero */
+/* hero banner */
+.p-5{
+    padding: 0 !important;
+}
+
+/* hero image */
+.py-5 {
+    background-image: url(../assets/images/02-hero-bg.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 40vh;
+    min-height: 500px;
+}
+
+/* hero text 'Minhui Liu' */
+.py-5 h1{
+    color: var(--colour2);
+    font-size: 30px;
+    margin-left: 30px;
+    position: relative;
+    bottom: -180px;
+}
+
+/* hero text 'font end developer' */
+.py-5 p {
+    color: var(--colour2);
+    margin-left: 30px;
+    position: relative;
+    bottom: -180px;
+}
+
+/*-------------------------------------*/
+/* Main content section */
+/* general */
+.allContent {
+    width: 95%;
+}
+
+.secTitleContain {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section-block {
+    border-left: solid var(--colour1);
+    margin: 20px 0px 20px 0px;
+}
+
+.card {
+    padding: 10px;
+    border: none;
+}
+
+/* Add scroll margin to avoid header covering part of the section, reference link in README */
+#work, #skills, #about-contact, #horiseon, #prework, #mini, #demo, #portfolio {
+    scroll-margin-top: 5rem;
+} 
+
+/* Work section */
+.card-img {
+    border-radius: 0px;
+    filter: brightness(50%);
+    border-bottom: solid 5px var(--colour1);
+    transition: all 0.5s ease-out;
+}
+
+/* when image link is hovered, change property for img element */
+.img-link:hover {
+    .card-img {
+        filter: none;
+    }
+}
+
+.card-img-overlay {
+    padding: 10px;
+}
+
+.subheading {
+    background: var(--colour3);
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    color: var(--colour2);
+}
+
+/* About/contact section */
+.nav-fill .nav-item {
+    text-align: left;
+    flex: none;
+}
+
+.nav-underline {
+    justify-content: space-between;
+}
+
+.nav-underline>.nav-item>a {
+    color: var(--colour1) !important;
+}

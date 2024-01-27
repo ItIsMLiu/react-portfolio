@@ -1,0 +1,110 @@
+
+/*-------------------------------------*//* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--colour1);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /*-------------------------------------*/
+  /* general */
+  /* colours */
+  :root {
+    --colour1: #5A554E;
+    --colour2: #EBE9E4;
+    --colour3: #8a6961;
+    --colour4: #6f544e;
+  }
+  
+  /* All buttons */
+  .btn-primary {
+    background-color: var(--colour3);
+    border: var(--colour3);
+    border-radius: 0;
+    margin-left: 30px;
+    position: relative;
+    bottom: -180px;
+    --bs-btn-active-color: var(--colour3) !important;
+    --bs-btn-active-bg: var(--colour2);
+    --bs-btn-active-border-color: var(--colour2);
+  }
+  
+  .btn-primary:hover, .btn-primary:active {
+    background: var(--colour4);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  button a {
+    color: var(--colour2);
+    text-decoration: none;
+  }
+  
+  button a:active {
+    color: var(--colour3);
+  }
+  
+  
+  /*-------------------------------------*/
+  /* media queries */
+  @media only screen and (max-width: 860px) {
+    /* nav bar */
+    .nav-link {
+        padding: 5px;
+        display: inline-block;
+    }
+  
+    /* hero */
+    .py-5 h1{
+        text-align: right;
+        margin-right: 30px;
+        position: relative;
+        bottom: 10px;
+        float: right;
+    }
+  
+    .py-5 p {
+        text-align: right;
+        float: right;
+        margin-right: 30px;
+        margin-left: 0px;
+        position: relative;
+        bottom: -20px;
+        right: -200px;
+    }
+  
+    .btn-primary {
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .secTitleContain {
+        text-align: center;
+        border-bottom: solid var(--colour1);
+        width: 90%;
+    }
+  
+    .section-block {
+        border-left: none;
+    }
+  
+    footer .btn {
+        display:inline-block;
+    }
+  }

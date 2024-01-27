@@ -1,4 +1,6 @@
 import React from 'react';
+import "../style/Header.css"
+import "../style/Global.css"
 
 function Header() {
   return <>
