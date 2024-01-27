@@ -1,99 +1,66 @@
 /*-------------------------------------*/
 /* hero */
-/* hero banner */
-.p-5{
-    padding: 0 !important;
-}
-
 /* hero image */
-.py-5 {
+.hero {
     background-image: url(../assets/images/02-hero-bg.jpg);
-    background-size: cover;
-    background-position: right;
-    height: 40vh;
-    min-height: 500px;
+    background-size: cover !important;
+    background-position: right !important;
+    height: 40vh !important;
+    min-height: 500px !important;
 }
 
 /* hero text 'Minhui Liu' */
-.py-5 h1{
-    color: var(--colour2);
-    font-size: 30px;
-    margin-left: 30px;
-    position: relative;
-    bottom: -180px;
+.hero h1{
+    color: var(--colour2) !important;
+    font-size: 30px !important;
+    margin-left: 30px !important;
+    position: relative !important;
+    bottom: -180px !important;
 }
 
 /* hero text 'font end developer' */
-.py-5 p {
-    color: var(--colour2);
-    margin-left: 30px;
-    position: relative;
-    bottom: -180px;
+.hero p {
+    color: var(--colour2) !important;
+    margin-left: 30px !important;
+    position: relative !important;
+    bottom: -180px !important;
 }
 
 /*-------------------------------------*/
 /* Main content section */
 /* general */
 .allContent {
-    width: 95%;
+    width: 95% !important;
 }
 
 .secTitleContain {
-    text-align: right;
-    padding-right: 50px;
+    text-align: right !important;
+    padding-right: 50px !important;
 }
 
 .section-block {
-    border-left: solid var(--colour1);
-    margin: 20px 0px 20px 0px;
+    border-left: solid var(--colour1) !important;
+    margin: 20px 0px 20px 0px !important;
 }
 
 .card {
-    padding: 10px;
-    border: none;
+    padding: 10px !important;
+    border: none !important;
 }
 
 /* Add scroll margin to avoid header covering part of the section, reference link in README */
 #work, #skills, #about-contact, #horiseon, #prework, #mini, #demo, #portfolio {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 5rem !important;
 } 
 
-/* Work section */
-.card-img {
-    border-radius: 0px;
-    filter: brightness(50%);
-    border-bottom: solid 5px var(--colour1);
-    transition: all 0.5s ease-out;
-}
-
-/* when image link is hovered, change property for img element */
-.img-link:hover {
-    .card-img {
-        filter: none;
-    }
-}
-
-.card-img-overlay {
-    padding: 10px;
-}
-
-.subheading {
-    background: var(--colour3);
-    display: inline-block;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    color: var(--colour2);
-}
-
-/* About/contact section */
+/* About section */
 .nav-fill .nav-item {
-    text-align: left;
-    flex: none;
+    text-align: left !important;
+    flex: none !important;
 }
 
 .nav-underline {
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 .nav-underline>.nav-item>a {

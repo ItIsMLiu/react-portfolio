@@ -16,7 +16,7 @@ function ProjectGallery() {
               </div>
               <a href="https://itismliu.github.io/horiseon-seo/" className="card col-lg-12 col-md-12 col-sm-12 img-link">
                 <div id="horiseon">
-                  <img src="./assets/images/1.jpg" className="card-img" alt="project placeholder image"></img>
+                  <img src="src/assets/images/1.jpg" className="card-img" alt="project placeholder image"></img>
                   <div className="card-img-overlay">
                     <div className="subheading">
                       <h5 className="card-title">Horiseon's SEO</h5>
@@ -27,7 +27,7 @@ function ProjectGallery() {
               </a>
               <a href="https://itismliu.github.io/prework-study-guide/" className="card col-lg-6 col-md-6 col-sm-12 img-link">
                 <div id="prework">
-                  <img src="./assets/images/2.jpg" className="card-img" alt="project placeholder image"></img>
+                  <img src="src/assets/images/2.jpg" className="card-img" alt="project placeholder image"></img>
                   <div className="card-img-overlay">
                     <div className="subheading">
                       <h5 className="card-title">Prework Study Guide</h5>
@@ -38,7 +38,7 @@ function ProjectGallery() {
               </a>
               <a href="https://github.com/ItIsMLiu/Unit-01-Mini-Project-Landing-Page" className="card col-lg-6 col-md-6 col-sm-12 img-link">
                 <div id="mini">
-                  <img src="./assets/images/3.jpg" className="card-img" alt="project placeholder image"></img>
+                  <img src="src/assets/images/3.jpg" className="card-img" alt="project placeholder image"></img>
                   <div className="card-img-overlay">
                     <div className="subheading">
                       <h5 className="card-title">Mini Project Landing Page</h5>
@@ -49,7 +49,7 @@ function ProjectGallery() {
               </a>
               <a href="https://github.com/ItIsMLiu/Demo" className="card col-lg-6 col-md-6 col-sm-12 img-link">
                 <div id="demo">
-                  <img src="./assets/images/4.jpg" className="card-img" alt="project placeholder image"></img>
+                  <img src="src/assets/images/4.jpg" className="card-img" alt="project placeholder image"></img>
                   <div className="card-img-overlay">
                     <div className="subheading">
                       <h5 className="card-title">Demo</h5>
@@ -60,7 +60,7 @@ function ProjectGallery() {
               </a>
               <a href="https://github.com/ItIsMLiu/portfolio-minhuiliu" className="card col-lg-6 col-md-6 col-sm-12 img-link" >
                 <div id="portfolio">
-                  <img src="./assets/images/5.jpg" className="card-img" alt="project placeholder image"></img>
+                  <img src="src/assets/images/5.jpg" className="card-img" alt="project placeholder image"></img>
                   <div className="card-img-overlay">
                     <div className="subheading">
                       <h5 className="card-title">Portfolio</h5>

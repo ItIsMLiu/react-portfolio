@@ -5,7 +5,6 @@ import "../style/Global.css"
 function Project() {
   return (
     <div>
-      <h1>Project</h1>
       <p>
       </p>
     </div>
