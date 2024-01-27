@@ -51,6 +51,7 @@ Other resources used as guides:
 - Create a React Contact Form with Email.js: https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33
 - Deployment of React Application using GitHub Pages: https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/
 - Deploying a React App (created using create-react-app) to GitHub Pages: https://github.com/gitname/react-gh-pages?tab=readme-ov-file
+- Deploying Vite / React App to GitHub Pages: https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
 ## License
 
