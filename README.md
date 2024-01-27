@@ -47,7 +47,10 @@ The footer section contains copyright information, important links, and an 'emai
 ## Credits
 
 Other resources used as guides:
-- 'Resend' Documentation: https://resend.com/docs/send-with-nodejs
+- 'Resend' Documentation: https://resend.com/docs/send-with-nodejs ; https://github.com/resend/resend-node-example
+- Create a React Contact Form with Email.js: https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33
+- Deployment of React Application using GitHub Pages: https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/
+- Deploying a React App (created using create-react-app) to GitHub Pages: https://github.com/gitname/react-gh-pages?tab=readme-ov-file
 
 ## License
 
