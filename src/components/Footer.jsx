@@ -30,7 +30,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col-sm-12 col-lg-12 col-md-12">
-                    <p>&copy; 2023 - Minhui Liu</p>
+                    <p>&copy; 2024 - Minhui Liu</p>
                 </div>            
             </div>
         </div>

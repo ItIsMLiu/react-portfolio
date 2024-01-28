@@ -73,7 +73,7 @@
     .hero h1{
       text-align: right !important;
       float: right !important;
-      margin-right: 30px !important;
+      margin-right: 20px !important;
       position: relative !important;
       top: 30px !important;
       display: block !important;
@@ -82,7 +82,7 @@
     .hero p {
       text-align: right !important;
       float: right !important;
-      margin-right: 30px !important;
+      margin-right: 20px !important;
       position: relative !important;
       top: 30px !important;
       display: block !important;

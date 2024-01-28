@@ -13,6 +13,24 @@ function Home() {
     </div>
       
     <div className="container-fluid allContent">  
+
+    <div className="row align-items-center" id="about">
+        <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>About</h2></div>
+        <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
+          <div className="container">
+            <div className="row">
+              <div className="card col-lg-12 col-md-12 col-sm-12">
+                <h5 className="card-title">About Me:</h5>
+                <p className="card-text">
+                  Highly motivated and detail-oriented junior front-end web developer with a unique background as a registered building architect, combining creative design expertise with a strong foundation in web development. Passionate about crafting visually appealing, responsive, and user-friendly websites, I bring a fresh perspective to the field. 
+                  My dedication to continuous self-improvement ensures that I stay at the forefront of web development, making me an asset to contribute effectively in cutting-edge projects. I possess a creative flair for design, an eye for detail, and a commitment to delivering seamless, intuitive user experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="row align-items-center" id="skills">
         <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Skills</h2></div>
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
@@ -50,23 +68,6 @@ function Home() {
               <div className="card col-lg-12 col-md-12 col-sm-12">
                 <h5 className="card-title">Language Skill:</h5>
                 <p className="card-text">English, Cantonese & Mandarin</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row align-items-center" id="about">
-        <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>About</h2></div>
-        <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
-          <div className="container">
-            <div className="row">
-              <div className="card col-lg-12 col-md-12 col-sm-12">
-                <h5 className="card-title">About Me:</h5>
-                <p className="card-text">
-                  Highly motivated and detail-oriented junior front-end web developer with a unique background as a registered building architect, combining creative design expertise with a strong foundation in web development. Passionate about crafting visually appealing, responsive, and user-friendly websites, I bring a fresh perspective to the field. 
-                  My dedication to continuous self-improvement ensures that I stay at the forefront of web development, making me an asset to contribute effectively in cutting-edge projects. I possess a creative flair for design, an eye for detail, and a commitment to delivering seamless, intuitive user experiences.
-                </p>
               </div>
             </div>
           </div>
