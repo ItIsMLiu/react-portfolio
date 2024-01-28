@@ -26,7 +26,7 @@ function Header() {
             </li>
             <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
             <li className="nav-item"><a className="nav-link" href="#about-contact">About/Contact</a></li>
-            <li className="nav-item"><a className="nav-link disabled" aria-disabled="true">CV</a></li>
+            <li className="nav-item"><a className="nav-link" href="/react-portfolio/src/assets/images/CV.pdf">CV(PDF)</a></li>
           </ul>
         </div>
       </div>

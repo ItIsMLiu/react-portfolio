@@ -13,8 +13,7 @@ function Home() {
     </div>
       
     <div className="container-fluid allContent">  
-
-    <div className="row align-items-center" id="about">
+      <div className="row align-items-center" id="about">
         <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>About</h2></div>
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
           <div className="container">
