@@ -9,9 +9,12 @@ function Contact() {
         <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Contact</h2></div>
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
           <div className="container">
+
             <div className="row">
               <div className="card col-lg-12 col-md-12 col-sm-12">
-                <h5 className="card-title" id="git">Contact Me:</h5>
+                <p>Thank you for taking the time to explore my portfolio! If you have any inquiries, collaboration proposals, or just want to say hello, I'd love to hear from you. Feel free to reach out using the contact form below or through the provided contact details.</p>
+                <br></br>
+                <h5 className="card-title" id="git">Contact Info:</h5>
                 <ul className="nav nav-fill nav-underline">
                   <li className="nav-item">
                     <a className="nav-link icon-link" href="mailto:xxxx@outlook.com">
@@ -26,6 +29,20 @@ function Contact() {
                     </a>
                   </li>
                   <li className="nav-item icon-link">
+                    <a className="nav-link" href="https://www.google.com/maps/place/Bristol/@51.4683734,-2.7555235,11z/data=!3m1!4b1!4m6!3m5!1s0x4871836681b3d861:0x8ee4b22e4b9ad71f!8m2!3d51.454513!4d-2.58791!16zL20vMDk1bDA?entry=ttu">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>  
+                      Bristol
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <br />
+            <div className="row">
+              <div className="card col-lg-12 col-md-12 col-sm-12">
+                <h5 className="card-title" id="git">Connect with Me on Social Media:</h5>
+                <ul className="nav nav-fill nav-underline">
+                  <li className="nav-item icon-link">
                     <a className="nav-link" href="https://github.com/ItIsMLiu">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>    
                       Github
@@ -39,14 +56,28 @@ function Contact() {
                       LinkedIn
                     </a>
                   </li>
-                  <li className="nav-item icon-link">
-                    <a className="nav-link" href="https://www.google.com/maps/place/Bristol/@51.4683734,-2.7555235,11z/data=!3m1!4b1!4m6!3m5!1s0x4871836681b3d861:0x8ee4b22e4b9ad71f!8m2!3d51.454513!4d-2.58791!16zL20vMDk1bDA?entry=ttu">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>  
-                      Bristol
-                    </a>
-                  </li>
                 </ul>
               </div>
+            </div>
+            <br />
+            <div className="row">
+              <h5 className="card-title">Contact Form:</h5>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name:</label>
+                  <input type="name" class="form-control" id="name"></input>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea type="message" class="form-control" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="contact">Submit</button>
+              </form>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ function Home() {
       <div className="container-fluid hero">
         <h1 className="col-12 fw-bold">Minhui Liu</h1>
         <p className="col-12 fs-4">Front End Developer</p>
-        <a href="/react-portfolio/contact"><button className="btn btn-primary btn-lg" type="button">Get in Touch!</button></a>
+        <a href="/react-portfolio/contact"><button className="btn btn-primary btn-lg" type="button" id="herogit">Get in Touch!</button></a>
       </div>
     </div>
       

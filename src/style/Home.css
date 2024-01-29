@@ -28,6 +28,18 @@
     display: block !important;
 }
 
+#git .btn-primary {
+    background-color: var(--colour3) !important;
+    border: var(--colour3) !important;
+    border-radius: 0 !important;
+    margin-left: 30px !important;
+    position: relative !important;
+    bottom: -180px !important;
+    --bs-btn-active-color: var(--colour3) !important;
+    --bs-btn-active-bg: var(--colour2) !important;
+    --bs-btn-active-border-color: var(--colour2) !important;
+}
+
 /*-------------------------------------*/
 /* Main content section */
 /* general */
@@ -48,23 +60,4 @@
 .card {
     padding: 10px !important;
     border: none !important;
-}
-
-/* Add scroll margin to avoid header covering part of the section, reference link in README */
-#work, #skills, #about-contact, #horiseon, #prework, #mini, #demo, #portfolio {
-    scroll-margin-top: 5rem !important;
-} 
-
-/* About section */
-.nav-fill .nav-item {
-    text-align: left !important;
-    flex: none !important;
-}
-
-.nav-underline {
-    justify-content: space-between !important;
-}
-
-.nav-underline>.nav-item>a {
-    color: var(--colour1) !important;
 }
