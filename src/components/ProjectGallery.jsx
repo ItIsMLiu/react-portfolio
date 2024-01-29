@@ -5,8 +5,8 @@ import "../style/Global.css"
 function ProjectGallery() {
   return (
     <div className="container-fluid allContent">
-      <div className="row align-items-center" id="work">
-        <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Work</h2></div>
+      <div className="row align-items-center" >
+        <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Portfolio Gallery</h2></div>
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
           <div className="container">
             <div className="row">

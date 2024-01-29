@@ -4,11 +4,11 @@ import "../style/Global.css"
 
 function Home() {
   return <>
-    <div className="mb-4" id="home">
+    <div className="mb-4">
       <div className="container-fluid hero">
         <h1 className="col-12 fw-bold">Minhui Liu</h1>
         <p className="col-12 fs-4">Front End Developer</p>
-        <button className="btn btn-primary btn-lg" type="button"><a href="#git">Get in Touch!</a></button>
+        <a href="/react-portfolio/contact"><button className="btn btn-primary btn-lg" type="button">Get in Touch!</button></a>
       </div>
     </div>
       

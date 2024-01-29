@@ -18,10 +18,9 @@ function App() {
   <Router>
     <Header />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<Project />} />
-      <Route path="blog" element={<ProjectGallery />} />
-      <Route path="contact/*" element={<Contact />} />
+      <Route path="/react-portfolio" element={<Home />} />
+      <Route path="/react-portfolio/projectgallery" element={<ProjectGallery />} />
+      <Route path="/react-portfolio/contact/*" element={<Contact />} />
     </Routes>
     <Footer />
   </Router>
