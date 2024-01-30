@@ -54,6 +54,7 @@ Other resources used as guides:
 - Deployment of React Application using GitHub Pages: https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/
 - Deploying a React App (created using create-react-app) to GitHub Pages: https://github.com/gitname/react-gh-pages?tab=readme-ov-file
 - Deploying Vite / React App to GitHub Pages: https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
+- Contact form endpoints: https://getform.io/
 
 ## License
 

@@ -62,19 +62,19 @@ function Contact() {
             <br />
             <div className="row">
               <h5 className="card-title">Contact Form:</h5>
-              <form>
+              <form action="https://getform.io/f/e05fc353-4d77-4ad4-84f0-82f69fbd062d" method="POST">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name:</label>
-                  <input type="name" class="form-control" id="name"></input>
+                  <input type="text" name="name" class="form-control" id="name"></input>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address:</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                  <label for="email" class="form-label">Email address:</label>
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"></input>
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label">Message:</label>
-                  <textarea type="message" class="form-control" id="message"></textarea>
+                  <textarea type="text" name="message" class="form-control" id="message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" id="contact">Submit</button>
               </form>
