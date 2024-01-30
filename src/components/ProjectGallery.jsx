@@ -1,4 +1,6 @@
 import React from 'react';
+import Project from './Project';
+import projects from '../projects.json'
 import "../style/ProjectGallery.css"
 import "../style/Global.css"
 
@@ -14,61 +16,42 @@ function ProjectGallery() {
                 <h5 className="card-title">Description:</h5>
                 <p className="card-text">Welcome to my work portfolio showcasing an array of webpage projects crafted with HTML, CSS, and JavaScript. This compilation encapsulates a diverse range of creations, from responsive and interactive websites to dynamic user interfaces. Each project emphasizes the fusion of clean HTML structure, aesthetically pleasing CSS design, and the functionality infused by JavaScript. From engaging landing pages to immersive web applications, this portfolio demonstrates my proficiency in leveraging these core web technologies to create compelling online experiences.</p>
               </div>
-              <a href="https://itismliu.github.io/horiseon-seo/" className="card col-lg-12 col-md-12 col-sm-12 img-link">
-                <div id="horiseon">
-                  <img src="src/assets/images/1.jpg" className="card-img" alt="project placeholder image"></img>
-                  <div className="card-img-overlay">
-                    <div className="subheading">
-                      <h5 className="card-title">Horiseon's SEO</h5>
-                      <p className="card-text">HTML/CSS</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="https://itismliu.github.io/prework-study-guide/" className="card col-lg-6 col-md-6 col-sm-12 img-link">
-                <div id="prework">
-                  <img src="src/assets/images/2.jpg" className="card-img" alt="project placeholder image"></img>
-                  <div className="card-img-overlay">
-                    <div className="subheading">
-                      <h5 className="card-title">Prework Study Guide</h5>
-                      <p className="card-text">HTML/CSS/JS</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/ItIsMLiu/Unit-01-Mini-Project-Landing-Page" className="card col-lg-6 col-md-6 col-sm-12 img-link">
-                <div id="mini">
-                  <img src="src/assets/images/3.jpg" className="card-img" alt="project placeholder image"></img>
-                  <div className="card-img-overlay">
-                    <div className="subheading">
-                      <h5 className="card-title">Mini Project Landing Page</h5>
-                      <p className="card-text">HTML/CSS</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/ItIsMLiu/Demo" className="card col-lg-6 col-md-6 col-sm-12 img-link">
-                <div id="demo">
-                  <img src="src/assets/images/4.jpg" className="card-img" alt="project placeholder image"></img>
-                  <div className="card-img-overlay">
-                    <div className="subheading">
-                      <h5 className="card-title">Demo</h5>
-                      <p className="card-text">HTML/CSS</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/ItIsMLiu/portfolio-minhuiliu" className="card col-lg-6 col-md-6 col-sm-12 img-link" >
-                <div id="portfolio">
-                  <img src="src/assets/images/5.jpg" className="card-img" alt="project placeholder image"></img>
-                  <div className="card-img-overlay">
-                    <div className="subheading">
-                      <h5 className="card-title">Portfolio</h5>
-                      <p className="card-text">HTML/CSS</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
+              <Project 
+                title = {projects[0].title}
+                deployed = {projects[0].deployed}
+                repo = {projects[0].repo}
+                image = {projects[0].image}
+              />
+              <Project 
+                title = {projects[1].title}
+                deployed = {projects[1].deployed}
+                repo = {projects[1].repo}
+                image = {projects[1].image}
+              />
+              <Project 
+                title = {projects[2].title}
+                deployed = {projects[2].deployed}
+                repo = {projects[2].repo}
+                image = {projects[2].image}
+              />
+              <Project 
+                title = {projects[3].title}
+                deployed = {projects[3].deployed}
+                repo = {projects[3].repo}
+                image = {projects[3].image}
+              />
+              <Project 
+                title = {projects[4].title}
+                deployed = {projects[4].deployed}
+                repo = {projects[4].repo}
+                image = {projects[4].image}
+              />
+              <Project 
+                title = {projects[5].title}
+                deployed = {projects[5].deployed}
+                repo = {projects[5].repo}
+                image = {projects[5].image}
+              />
             </div>
           </div>
         </div>
