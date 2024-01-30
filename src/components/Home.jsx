@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import "../style/Home.css"
 import "../style/Global.css"
 
@@ -8,7 +10,16 @@ function Home() {
       <div className="container-fluid hero">
         <h1 className="col-12 fw-bold">Minhui Liu</h1>
         <p className="col-12 fs-4">Front End Developer</p>
-        <a href="/react-portfolio/contact"><button className="btn btn-primary btn-lg" type="button" id="herogit">Get in Touch!</button></a>
+        <NavLink 
+          to="/react-portfolio/contact"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          <button className="btn btn-primary btn-lg" type="button" id="herogit">Get in Touch!</button>
+        </NavLink>
+        
       </div>
     </div>
       
