@@ -22,7 +22,3 @@ svg {
     --bs-btn-active-bg: var(--colour2) !important;
     --bs-btn-active-border-color: var(--colour2) !important;
 }
-
-#contactCV .nav-underline>.nav-item>a {
-    color: var(--colour1) !important;
-}

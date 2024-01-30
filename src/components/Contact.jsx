@@ -82,12 +82,16 @@ function Contact() {
             <br />
             <div className="row" id="contactCV">
               <h5 className="card-title">CV:</h5>
-              <a 
-                className="nav nav-fill nav-underline" 
-                href="/react-portfolio/assets/images/CV.pdf"
-              >
-              Click here to download a PDF copy of my CV
-              </a>
+              <ul className="nav nav-fill nav-underline">
+                <li className="nav-item icon-link">
+                  <a 
+                    className="nav nav-fill nav-underline" 
+                    href="/react-portfolio/assets/images/CV.pdf"
+                  >
+                  Click here to download a PDF copy of my CV
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
