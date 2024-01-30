@@ -56,7 +56,7 @@ function Header() {
             <li className="nav-item">
               <a 
                 className="nav-link" 
-                href="/react-portfolio/src/assets/images/CV.pdf"
+                href="src/assets/images/CV.pdf"
               >
                 CV(PDF)
               </a>
