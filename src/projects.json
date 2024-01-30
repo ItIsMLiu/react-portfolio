@@ -4,41 +4,41 @@
         "title": "Daily Planner App",
         "deployed": "https://itismliu.github.io/daily-planner-app/",
         "repo": "https://github.com/ItIsMLiu/daily-planner-app",
-        "image": "src/assets/images/daily-planner-app.png"
+        "image": "./assets/images/daily-planner-app.png"
     },
     {
         "id": 2,
         "title": "Password Generator",
         "deployed": "https://itismliu.github.io/password-generator/",
         "repo": "https://github.com/ItIsMLiu/password-generator",
-        "image": "src/assets/images/password-generator.png"
+        "image": "./assets/images/password-generator.png"
     },
     {
         "id": 3,
         "title": "Readme Generator",
         "deployed": "N/A - This is a command-line application",
         "repo": "https://github.com/ItIsMLiu/readme-generator",
-        "image": "src/assets/images/readme-generator.png"
+        "image": "./assets/images/readme-generator.png"
     },
     {
         "id": 4,
         "title": "Team Profile Generator",
         "deployed": "N/A - This is a command-line application",
         "repo": "https://github.com/ItIsMLiu/team-profile-generator",
-        "image": "src/assets/images/team-profile-generator.png"
+        "image": "./assets/images/team-profile-generator.png"
     },
     {
         "id": 5,
         "title": "Weather Dashboard",
         "deployed": "https://itismliu.github.io/weather-dashboard/",
         "repo": "https://github.com/ItIsMLiu/weather-dashboard",
-        "image": "src/assets/images/weather-dashboard.png"
+        "image": "./assets/images/weather-dashboard.png"
     },
     {
         "id": 6,
         "title": "Code Quiz",
         "deployed": "https://itismliu.github.io/code-quiz/",
         "repo": "https://github.com/ItIsMLiu/code-quiz",
-        "image": "src/assets/images/code-quiz.png"
+        "image": "./assets/images/code-quiz.png"
     }
 ]
