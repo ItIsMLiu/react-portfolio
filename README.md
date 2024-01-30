@@ -14,35 +14,37 @@ The URL of the deployed application: https://itismliu.github.io/react-portfolio/
 
 The URL of the GitHub repository: https://github.com/ItIsMLiu/react-portfolio
 
-Screenshot of webpage when screen width is larger than 992px:
+Screenshot of home page of website when screen width is larger than 992px:
 
-![Screenshot of webpage when screen width is larger than 992px](./reactpractice/src/assets/screencapture1.png)
+![Screenshot of home page of website when screen width is larger than 992px](./src/assets/images/home.png)
 
-Screenshot of webpage when screen width is between 768-992px:
+Screenshot of home page of website when screen width is smaller than 768px:
 
-![Screenshot of webpage when screen width is between 768-992px](./reactpractice/src/assets/screencapture2.png)
+![Screenshot of webpage when screen width is smaller than 768px](./src/assets/images/home-small-screen.png)
 
-Screenshot of webpage when screen width is smaller than 768px:
+Screenshot of project gallery page:
 
-![Screenshot of webpage when screen width is smaller than 768px](./reactpractice/src/assets/screencapture3.png)
+![Screenshot of project gallery page](./src/assets/images/project-gallery.png)
+
+Screenshot of contact page:
+
+![Screenshot of project gallery page](./src/assets/images/contact.png)
 
 ## Installation
 
 N/A
 
 ## Usage 
-<!-- 
-To use the portfolio webpage, you can go through its various sections to explore infomation my work, skills, infomation about me and my contact details. If you wish to review a specific section without having to scroll through the entire page, simply utilise the navigation bar located at the top right corner. From there, select one of the four options: 'Work', 'Skills', 'About/Contact' or 'CV' by clicking on your choice. Within the 'Work' dropdown menu, you can select the specific project for review. This will promptly take you to the desired section on the webpage, where you can delve into the section contents.
+
+To use the portfolio webpage, you can go through its various sections to explore infomation my projects, skills, infomation about me, my contact details and CV. If you wish to review a specific page, simply utilise the navigation bar located at the top right corner. From there, select one of the four options: 'Home', 'Project Gallery', 'Contact' or 'CV(PDF)' by clicking on your choice. This will promptly take you to the desired section on the webpage, where you can delve into the section contents.
 
 This webpage is compatible with various screen sizes, as its layout will automatically respond and adapt. 
 
-The graphics of the links in the navigation bar, hero section, 'contact me' section, footer section and images in the 'work' section will dynamically change as you hover the cursor over them.
+The graphics of the links in the navigation bar, hero, contact, project and footer section will dynamically change as you hover the cursor over them.
 
-In the 'work' section, when the project image is clicked, it will take you to the deployed project website or the associated project GitHub repository.
+In the contact section, links to the contact methods will directly prompt you to email, call, or visit my GitHub and LinkedIn profile.
 
-In the 'contact me' section, links to the contact methods will directly prompt you to email, call, or visit my GitHub profile.
-
-The footer section contains copyright information, important links, and an 'email now!' call-to-action button. -->
+The footer section contains copyright information and an 'email now!' call-to-action button. 
 
 ## Credits
 
