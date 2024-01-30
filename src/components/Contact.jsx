@@ -79,6 +79,16 @@ function Contact() {
                 <button type="submit" class="btn btn-primary" id="contact">Submit</button>
               </form>
             </div>
+            <br />
+            <div className="row" id="contactCV">
+              <h5 className="card-title">CV:</h5>
+              <a 
+                className="nav nav-fill nav-underline" 
+                href="/react-portfolio/assets/images/CV.pdf"
+              >
+              Click here to download a PDF copy of my CV
+              </a>
+            </div>
           </div>
         </div>
       </div>
