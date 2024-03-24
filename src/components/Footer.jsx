@@ -12,7 +12,7 @@ function Footer() {
                         <div className="card-body">
                             <h5 className="card-title">Minhui Liu</h5>
                             <p className="card-text">Front-end Web Developer</p>
-                            <a href="mailto:xxxx@outlook.com" className="btn btn-primary">Email Now!</a>
+                            <a href="mailto:mliu.design@outlook.com" className="btn btn-primary">Email Now!</a>
                         </div>
                     </div>
                 </div>
